@@ -1,8 +1,5 @@
 /*
-	Parallelism by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+	
 
 (function($) {
 
@@ -212,7 +209,7 @@
 		if (settings.scrollWheel.enabled)
 			(function() {
 
-				// Based on code by @miorel + @pieterv of Facebook (thanks guys :)
+				
 				// github.com/facebook/fixed-data-table/blob/master/src/vendor_upstream/dom/normalizeWheel.js
 					var normalizeWheel = function(event) {
 
