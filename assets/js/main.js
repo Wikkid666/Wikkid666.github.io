@@ -386,5 +386,18 @@
 					});
 
 			})();
+/*
+	FACEBLAST by Jamie Robinson 2024
+*/
+
+(function($) {
+
+	"use strict";
 
 })(jQuery);
+
+// Function to toggle display of audio player
+function toggleAudio(audioId) {
+    var audioPlayer = document.getElementById(audioId);
+    audioPlayer.style.display === 'none' ? audioPlayer.style.display = 'block' : audioPlayer.style.display = 'none';
+}
